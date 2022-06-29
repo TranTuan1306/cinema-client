@@ -1,0 +1,30 @@
+.featured {
+  height: 100vh;
+  position: relative;
+  .imgSlider {
+    width: 1920px;
+    height: 1080px;
+    object-fit: cover;
+  }
+  .slider {
+    .btnVolume {
+      z-index: 30;
+      position: absolute;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      right: 10%;
+      top: 50%;
+      cursor: pointer;
+      padding: 6px;
+      color: #bbbbbb;
+      border: #fff solid 1px;
+      &:hover {
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.2);
+        color: #fff;
+        background-color: rgba(211, 211, 211, 0.18);
+      }
+    }
+  }
+}

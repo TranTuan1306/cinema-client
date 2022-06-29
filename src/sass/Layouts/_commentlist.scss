@@ -1,0 +1,36 @@
+.userCommentListAria {
+  .userComment-Aria {
+    display: flex;
+    align-items: center;
+    .itemNull {
+      display: none;
+    }
+    .commentListAria {
+      width: auto;
+      background-color: rgb(224, 205, 205);
+      color: dark;
+      border-radius: 10px;
+      padding-top: 20px;
+      margin-bottom: 5px;
+      .userComment {
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+        .commentTyped {
+          font-size: 16px;
+          word-wrap: break-word;
+          margin-left: 10px;
+        }
+
+        .commentTime {
+          margin-left: 70px;
+          font-size: 12px;
+          color: green;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
