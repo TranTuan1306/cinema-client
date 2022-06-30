@@ -16,7 +16,7 @@ import MenuItem from "../menuitem/MenuItem";
 export default function Menu() {
   return (
     <MenuPane>
-      <MenuItem name="Thịnh hành" Icon={FaHotjar} to="THỊNH HÀNH" />
+      <MenuItem name="Thịnh hành" Icon={MdTrendingUp} to="THỊNH HÀNH" />
       <MenuItem
         name="Phim mới cập nhật"
         Icon={FaHotjar}
